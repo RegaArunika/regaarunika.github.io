@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Home-WEB REGA-commerce</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/css/splide.min.css">
+  </head>
+  <body>
+    <div class="chat fa-brands fa-square-whatsapp" onclick="chat()"></div>
+    <header>
+      <ul class="nav-list animate__animated animate__backInDown">
+        <li class="nav-item animate__animated animate__bounce">
+          <a href="#" class="nav-link">
+            <span class="nav-icon fa fa-home"></span>
+            <span class="nav-text">HOME</span>
+          </a>
+        </li>
+        <li class="nav-item animate__animated animate__bounce">
+          <a href="product.html" class="nav-link">
+            <span class="nav-icon fa fa-cart-flatbed"></span>
+            <span class="nav-text">PRODUCT</span>
+          </a>
+        </li>
+        <li class="nav-item animate__animated animate__bounce">
+          <a href="category.html" class="nav-link">
+            <span class="nav-icon fa fa-list"></span>
+            <span class="nav-text">CATEGORY</span>
+          </a>
+        </li>
+        <li class="nav-item animate__animated animate__bounce">
+          <a href="mailto::regawp55@gmail.com" class="nav-link">
+            <span class="nav-icon fa fa-contact-card"></span>
+            <span class="nav-text">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <!-- section page -->
+      <div class="container">
+        <h2 class="title">Product List</h2>
+        <!-- Baris -->
+        <section class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <span class="splide-img">
+                <img src="assets/images/jne.png" alt="">
+              </span>
+              </li>
+              <li class="splide__slide">
+                <span class="splide-img">
+                  <img src="assets/images/jnt.png" alt="">
+                </span>
+              </li>
+              <li class="splide__slide">
+                <span class="splide-img">
+                  <img src="assets/images/google.png" alt="">
+                </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="row">
+          <!-- Kolom -->
+          <div class="kolom" onclick="buy('Baju kaos', 100000)">
+            <img src="assets/images/product-1.jpg" />
+            <h4>Baju Kaos</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('sepatu olahraga z1', 250000)">
+            <img src="assets/images/product-2.jpg" />
+            <h4>Sepatu Olahraga z1</h4>
+            <p>Rp. 250.000</p>
+          </div>
+          <div class="kolom" onclick="buy('celana training', 95000)">
+            <img src="assets/images/product-3.jpg" />
+            <h4>Celana Training</h4>
+            <p>Rp. 95.000</p>
+          </div>
+          <div class="kolom" onclick="buy('baju polo',120000)">
+            <img src="assets/images/product-4.jpg" />
+            <h4>Baju Polo</h4>
+            <p>Rp. 120.000</p>
+          </div>
+          <div class="kolom" onclick="buy('sepatu kece', 100000)">
+            <img src="assets/images/product-5.jpg" />
+            <h4>Sepatu Kece</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('baju olahraga', 60000)">
+            <img src="assets/images/product-6.jpg" />
+            <h4>Baju Olahraga</h4>
+            <p>Rp. 60.000</p>
+          </div>
+          <div class="kolom" onclick="buy('laos Kaki', 100000)">
+            <img src="assets/images/product-7.jpg" />
+            <h4>Kaos Kaki</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('Jam Tangan Pria', 125000)">
+            <img src="assets/images/product-8.jpg" />
+            <h4>Jam Tangan Pria</h4>
+            <p>Rp. 125.000</p>
+          </div>
+          <div class="kolom" onclick="buy('Jam Tangan Elegan', 100000)">
+            <img src="assets/images/product-9.jpg" />
+            <h4>Jam Tangan Elegan</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('sepatu olahraga', 100000)">
+            <img src="assets/images/product-10.jpg" />
+            <h4>Sepatu Olahraga</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('sepatu Sneakers', 100000)">
+            <img src="assets/images/product-11.jpg" />
+            <h4>Sepatu Sneakers</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="kolom" onclick="buy('Joger Pants', 100000)">
+            <img src="assets/images/product-12.jpg" />
+            <h4>Joger Pants</h4>
+            <p>Rp. 100.000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright <span id="year"></span>. ReeShop</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/js/splide.min.js"></script>
+    <script src="assets/source.js"></script>
+  </body>
+</html>
